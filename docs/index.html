@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Alexandre Hajjar">
-  <title>OpenGreffe@FOSDEM2019</title>
+  <title>OpenGreffe @ FOSDEM2019</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -33,16 +33,77 @@
     <div class="slides">
 
 <section id="title-slide">
-  <h1 class="title">OpenGreffe@FOSDEM2019</h1>
+  <h1 class="title">OpenGreffe @ FOSDEM2019</h1>
   <p class="author">Alexandre Hajjar</p>
   <p class="date">Feb 3, 2019</p>
 </section>
 
-<section id="whats-opengreffe" class="title-slide slide level1"><h1>What’s OpenGreffe</h1></section>
-<section id="how-to-give-identity-to-a-company-today-in-france" class="title-slide slide level1"><h1>How to give identity to a company today (in France)</h1></section>
-<section id="how-it-could-be-done-in-an-open-and-decentralised-way-opengreffe" class="title-slide slide level1"><h1>How it could be done in an open and decentralised way (OpenGreffe)</h1></section>
-<section id="how-much-sense-does-it-make-for-society" class="title-slide slide level1"><h1>How much sense does it make for society</h1></section>
-<section id="what-will-it-bring-as-open-data" class="title-slide slide level1"><h1>What will it bring as open data</h1></section>
+<section><section id="introduction" class="title-slide slide level1"><h1>Introduction</h1></section><section id="proceedings-from-a-hackathon" class="slide level2">
+<h2>Proceedings from a hackathon</h2>
+<p>Legal + technical challenges</p>
+<p>Making technology drive innovation in law</p>
+<p>With fellow <span class="citation" data-cites="onyb">@onyb</span></p>
+</section><section id="incorporation-is-a-closed-process" class="slide level2">
+<h2>Incorporation is a closed process</h2>
+<p>Observed in France, through Legalstart</p>
+</section><section id="open-it-up" class="slide level2">
+<h2>Open it up</h2>
+<p>Taking lesson from open-source, open data initiatives and public blockchains</p>
+</section></section>
+<section><section id="incorporating-today" class="title-slide slide level1"><h1>Incorporating today</h1></section><section id="very-formal-process" class="slide level2">
+<h2>Very formal process</h2>
+</section><section id="entirely-owned-by-greffes" class="slide level2">
+<h2>Entirely owned by Greffes</h2>
+<p>State designated entities</p>
+</section></section>
+<section><section id="what-is-a-company" class="title-slide slide level1"><h1>What is a company</h1></section><section id="base-attributes" class="slide level2">
+<h2>Base attributes</h2>
+<p>Associates, capital and a common goal</p>
+<p>=&gt;</p>
+<pre><code>Company = { Name,
+            [AssociatePerson],
+            CapitalAmount
+            }</code></pre>
+</section><section id="to-be-identifyable-on-a-blockchain" class="slide level2">
+<h2>To be identifyable on a blockchain</h2>
+<pre><code>Company = { Name,
+            [AssociatePerson],
+            CapitalAmount,
+            EthereumAddress
+            }</code></pre>
+</section><section id="recording-on-a-blockchain" class="slide level2">
+<h2>Recording on a blockchain</h2>
+<p>Companies are recorded in the main Opengreffe record</p>
+</section><section id="process" class="slide level2">
+<h2>Process</h2>
+<ol type="1">
+<li>Associates: setup multisig addr + submit to Opengreffe</li>
+<li>Verifyer: due-diligence and approval =&gt; :baby:</li>
+<li>Other business: lookup the company on Opengreffe</li>
+</ol>
+</section><section id="what-this-allows" class="slide level2">
+<h2>What this allows</h2>
+<ul>
+<li>identification of company with Ethereum address</li>
+<li>building long-term trust</li>
+<li>accountability of associates</li>
+</ul>
+</section><section id="does-it-work-legally" class="slide level2">
+<h2>Does it work legally</h2>
+<p>Yes, under Articles 1832 and 1871, using “Société en Participation”</p>
+<p>(but unlimited liability and no moral entity)</p>
+</section></section>
+<section><section id="how-good" class="title-slide slide level1"><h1>How good</h1></section><section id="open-a-closed-system" class="slide level2">
+<h2>Open a closed system</h2>
+<p>And replace a monopoly!</p>
+</section><section id="more-auditable-and-secure" class="slide level2">
+<h2>More auditable and secure</h2>
+<p>Processes that are moved on-chain are more easily auditable and can be verifyably safe</p>
+<p>Moving more of the due diligence process on-chain would be interesting</p>
+</section><section id="allow-innovation" class="slide level2">
+<h2>Allow innovation</h2>
+<p>Notably by automatically resolving an Ethereum address to a company identification, allowing automated business (DAOs…)</p>
+</section></section>
     </div>
   </div>
 
