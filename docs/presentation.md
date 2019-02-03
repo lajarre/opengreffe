@@ -20,17 +20,17 @@ Observed in France
 
 Taking lesson from open-source, open data initiatives and public blockchains
 
-# Incorporating today
+# 🏛️ Incorporating today
 
 With the example of France
 
-## Very formal process
+## Tedious & closed process
 
 ## Entirely owned by Greffes
 
 State designated entities
 
-# What is a company
+# `> Company()`
 
 ## Base attributes
 
@@ -62,7 +62,7 @@ Companies are recorded in the main Opengreffe record
 ## The process
 
 1. Associates: setup multisig addr + submit to Opengreffe
-2. Verifyer: due-diligence and approval => :baby:
+2. Verifyer: due-diligence and approval => 👶
 3. Other business: lookup the company on Opengreffe
 
 ## Step 1&2 - add a company
@@ -85,7 +85,7 @@ Yes, under Articles 1832 and 1871, using "Société en Participation"
 
 (but unlimited liability and no moral entity)
 
-# How good
+# 👍 How good
 
 ## Open a closed system
 
@@ -98,12 +98,15 @@ verifyably safe
 
 Moving more of the due diligence process on-chain would be interesting
 
+## On-chain business
+
+Ethereum addr `->` Company
+
 ## Allow innovation
 
-Notably by automatically resolving an Ethereum address to a company
-identification, allowing automated business (DAOs...)
+Open-up discussion on the rules of company creation process
 
-# Conclusion
+# 👋 Conclusion
 
 ## Open source law (ish)
 
