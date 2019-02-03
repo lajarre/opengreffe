@@ -8,15 +8,13 @@ date: Feb 3, 2019
 
 ## Proceedings from a hackathon
 
-Legal + technical challenges
+Making software that opens law up
 
-Making technology drive innovation in law
-
-With fellow @onyb
+With fellow @onyb @ Legalstart
 
 ## Incorporation is a closed process
 
-Observed in France, through Legalstart
+Observed in France
 
 ## Open it up
 
@@ -61,11 +59,19 @@ Company = { Name,
 
 Companies are recorded in the main Opengreffe record
 
-## Process
+## The process
 
 1. Associates: setup multisig addr + submit to Opengreffe
 2. Verifyer: due-diligence and approval => :baby:
 3. Other business: lookup the company on Opengreffe
+
+## Step 1&2 - add a company
+
+<img src="./images/screenshot--verify.png">
+
+## Step 3 - look it up
+
+<img src="./images/screenshot--lookup.png">
 
 ## What this allows
 
@@ -96,3 +102,17 @@ Moving more of the due diligence process on-chain would be interesting
 
 Notably by automatically resolving an Ethereum address to a company
 identification, allowing automated business (DAOs...)
+
+# Conclusion
+
+## Open source law (ish)
+
+One more attempt to move concepts managed by law into code
+
+(and bring open-source goodness to it)
+
+## Feedback
+
+In search for feedback, ideas
+
+[github.com/lajarre/opengreffe](github.com/lajarre/opengreffe)

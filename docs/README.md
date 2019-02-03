@@ -2,7 +2,7 @@
 
 A dencetralized record of companies identities.
 
-See [Opengreffe@FOSDEM 2019 slides](https://lajarre.github.io/opengreffe).
+See [Opengreffe @ FOSDEM 2019 slides](https://lajarre.github.io/opengreffe).
 
 ## What Opengreffe does
 
